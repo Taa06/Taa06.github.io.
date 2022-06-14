@@ -1,0 +1,95 @@
+body{
+    background-color:#1B1717;
+    margin: 0px;
+    background-image:
+    linear-gradient(to bottom, rgba(122, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.header {
+    overflow: scroll;
+    background-color: #810000;  
+ }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+ 
+  .header a.SophieLark {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header-right {
+    float: right;
+  }
+ 
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  
+  }
+  table{
+    margin-top: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      width: max-content;
+  }
+  p{
+      color: rgb(151, 151, 151);
+  }
+  .introh{
+      color: #ddd;
+      text-align: center;
+  }
+  .HeadShot{
+    border-radius: 100px;
+  }
+  .skill-row{
+    margin-top: 300px;
+  }
+  .Chem{
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+  }
+  .SophieLark{
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+  }
+  .Mechanic{
+    border-radius: 300px;
+    height: 300px;
+    width: 300px;
+  }
+  .Shooting{
+    border-radius: 300px;
+    height: 300px;
+    width: 300px;
+  }
+  .Citation{
+    text-align: center;
+  }
+  .contact{
+    display: inline-block;
+  }
+  
